@@ -19,7 +19,7 @@ outlet, status queries, discovery).
 
 ### Install via `.deb`
 
-Build or download the release package and install on the device:
+Download the release package and install on the device:
 
 ```bash
 wget https://github.com/aragon25/sispmctl/releases/download/v4.11-1/sispmctl_4.11-1_all.deb
