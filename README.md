@@ -1,7 +1,7 @@
 
 # sispmctl
 
-Packaged clone of the upstream `xypron/sispmctl` (release-4.11) prepared as a
+Packaged clone of the upstream `xypron/sispmctl` (release-4.12) prepared as a
 Debian `.deb` installer for Debian/Raspbian systems. The upstream `sispmctl`
 utility controls USB-connected SiSPM power strips (power-on/power-off per
 outlet, status queries, discovery).
@@ -22,8 +22,8 @@ outlet, status queries, discovery).
 Download the release package and install on the device:
 
 ```bash
-wget https://github.com/aragon25/sispmctl/releases/download/v4.11-1/sispmctl_4.11-1_all.deb
-sudo apt install ./sispmctl_4.11-1_all.deb
+wget https://github.com/aragon25/sispmctl/releases/download/v4.12-1/sispmctl_4.12-1_all.deb
+sudo apt install ./sispmctl_4.12-1_all.deb
 ```
 
 This places the executable in your `PATH` and installs any packaging-provided
@@ -59,6 +59,3 @@ If your system uses different device nodes adjust `-d /dev/ttyUSB*` accordingly.
   ensure devices attached to the power strip can be safely power-cycled.
 - For automated tests, mock or stub the serial device nodes instead of using
   real hardware.
-
-
-
