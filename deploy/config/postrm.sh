@@ -1,6 +1,8 @@
 #!/bin/bash
-userdel -f -r sispmctl >/dev/null 2>&1
-deluser --group sispmctl >/dev/null 2>&1
+if [ "$1" == "remove" ]; then
+  userdel -f -r sispmctl >/dev/null 2>&1
+  deluser --group sispmctl >/dev/null 2>&1
+fi
 rm -f "/lib/udev/rules.d/60-sispmctl.rules" >/dev/null 2>&1
 udevadm control --reload-rules >/dev/null 2>&1
 udevadm trigger >/dev/null 2>&1
