@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [4.12-1] - TESTING
+## [4.12-1] - 2026-02-17
 
 ### Added
 - Version 4.12 of sispmctl
